@@ -149,6 +149,39 @@ footer {
 .proyecto p {
   margin: 0;
 }
+/* Estilo para encabezado con logo */
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  padding: 1.5rem 2rem;
+  flex-wrap: wrap;
+}
+
+.logo-titulo h1 {
+  color: var(--color-blanco);
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.logo {
+  height: 50px;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .encabezado {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin: 1rem 0 0 0;
+    height: 40px;
+  }
+}
+
 
 /* Responsividad */
 @media (max-width: 768px) {
