@@ -181,6 +181,54 @@ footer {
     height: 40px;
   }
 }
+/* Logo alineado a la derecha */
+.logo {
+  height: 60px;
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+/* Carrusel de imágenes */
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: var(--max-ancho);
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Artículos y noticias */
+.articulos {
+  max-width: var(--max-ancho);
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.articulos article {
+  background-color: #e6f0ff;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 6px solid var(--color-primario);
+  border-radius: 8px;
+}
+
+.articulos h3 {
+  margin-bottom: 0.5rem;
+  color: var(--color-primario);
+}
 
 
 /* Responsividad */
