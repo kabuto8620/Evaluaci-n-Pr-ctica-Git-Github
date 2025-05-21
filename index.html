@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mod4 DevOPS y Despliegue</title>
+  <title>TechNova - Desarrollo e Innovación</title>
   <link rel="stylesheet" href="css/style.css" />
-
 </head>
 <body>
   <header>
-    <h1>Bienvenido al curso de GIT del Modulo 4 por Paul Laurean</h1>
-    <img src="img/logo.png" alt="Logo de la empresa" class="logo" />
+    <h1>TechNova - Soluciones de Software Innovadoras</h1>
+    <img src="img/logo.png" alt="Logo de TechNova" class="logo" />
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
@@ -23,12 +22,41 @@
   </header>
 
   <main>
-    <h2>Bienvenido</h2>
-    <p>Este es el contenido principal de mi página. Aquí puedes agregar lo que desees: noticias, artículos, imágenes, etc.</p>
+    <h2>Novedades y Noticias</h2>
+
+    <section class="carousel">
+      <div class="slides">
+        <img src="img/carrusel1.jpg" alt="Proyecto destacado 1">
+        <img src="img/carrusel2.jpg" alt="Proyecto destacado 2">
+        <img src="img/carrusel3.jpg" alt="Proyecto destacado 3">
+      </div>
+    </section>
+
+    <section class="articulos">
+      <article>
+        <h3>Nuestro Impacto en el Desarrollo Web</h3>
+        <p>En TechNova, desarrollamos soluciones tecnológicas modernas y eficientes para pequeñas y grandes empresas, destacando por nuestro enfoque ágil y centrado en el cliente.</p>
+      </article>
+
+      <article>
+        <h3>Expansión Internacional 2025</h3>
+        <p>Estamos abriendo nuevas oficinas en Latinoamérica, fortaleciendo nuestros lazos con startups y empresas tecnológicas emergentes.</p>
+      </article>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Mi Empresa | Desarrollado por Paul Laurean</p>
+    <p>&copy; 2025 TechNova | Desarrollado por Paul Laurean</p>
   </footer>
+
+  <script>
+    // Carrusel simple
+    const slides = document.querySelector('.slides');
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % 3;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }, 4000);
+  </script>
 </body>
 </html>
