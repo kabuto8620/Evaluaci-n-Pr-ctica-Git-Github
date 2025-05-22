@@ -189,11 +189,12 @@ footer {
   right: 2rem;
 }
 
-/* Carrusel de imágenes */
+/* Carrusel de imágenes más pequeño */
 .carousel {
   overflow: hidden;
   width: 100%;
-  max-width: var(--max-ancho);
+  max-width: 800px; /* más pequeño */
+  height: 250px;    /* altura reducida */
   margin: 2rem auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -202,13 +203,16 @@ footer {
 .slides {
   display: flex;
   width: 300%;
+  height: 100%; /* mantener altura consistente */
   transition: transform 0.5s ease-in-out;
 }
 
 .slides img {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover; /* recorta proporcionalmente */
 }
+
 
 /* Artículos y noticias */
 .articulos {
