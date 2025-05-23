@@ -17,8 +17,8 @@ La estructura incluye una carpeta `css/` para los estilos y `img/` para imágene
 Despliegue en GitHub Pages
 
 Puedes ver el sitio en línea aquí:  
-[https://kabuto8620.github.io/Evaluaci-n-Pr-ctica-Git-Github/]
-(https://kabuto8620.github.io/Evaluaci-n-Pr-ctica-Git-Github/)
+[https://kabutto86.github.io/Evaluaci-n-Pr-ctica-Git-Github/]
+(https://kabutto86.github.io/Evaluaci-n-Pr-ctica-Git-Github/)
 
 ## Tecnologías utilizadas
 
